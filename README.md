@@ -2,11 +2,11 @@
 
 ## Code
 
-The code submitted for reproducibility of our results is anonymized and included in this supplementary material. The code is organized into the following notebooks, structured under a common directory `supplementary/`:
+The code is organized into the following notebooks, structured under a common directory `supplementary/`:
 
-- `notebook_layer1.ipynb` – Contains code for [Layer 1 Name/Function, e.g., Preprocessing or Entity Extraction]
-- `notebook_layer2.ipynb` – Implements [Layer 2, e.g., Role Labeling or Relation Tagging]
-- `notebook_layer3.ipynb` – Implements [Layer 3, e.g., Post-processing or Visualization]
+- `notebook_layer1.ipynb` – Contains code for data preprocessing, relation extraction, layer 1 clusters of the relationships
+- `notebook_layer2.ipynb` – Contains analyses layer 1, layer 2 clusters (subclusters of layer 1), visualizations, and statistical analysis
+- `notebook_layer3.ipynb` – Contains layer 3 clusters (subclusters of layer 2), visualizations, and statistical analysis
 
 Each notebook is self-contained and includes explanations and outputs for reproducibility.
 
@@ -24,3 +24,4 @@ To reproduce the results:
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+
