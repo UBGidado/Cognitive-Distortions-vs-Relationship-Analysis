@@ -7,6 +7,7 @@ The code is organized into the following notebooks, structured under a common di
 - `notebook_layer1.ipynb` – Contains code for data preprocessing, relation extraction, layer 1 clusters of the relationships
 - `notebook_layer2.ipynb` – Contains analyses layer 1, layer 2 clusters (subclusters of layer 1), visualizations, and statistical analysis
 - `notebook_layer3.ipynb` – Contains layer 3 clusters (subclusters of layer 2), visualizations, and statistical analysis
+- `triples_df` - Relationship triples dataframe for running `notebook_layer1` and `notebook_layer2`
 
 Each notebook is self-contained and includes explanations and outputs for reproducibility.
 
@@ -24,4 +25,5 @@ To reproduce the results:
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+
 
